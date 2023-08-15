@@ -7,6 +7,8 @@ This PowerShell script allows you to query VirusTotal API for threat intelligenc
 .\VirusTotalQuery.ps1 -InputFile input.csv -OutputFile results.csv
 ```
 
+![alt text](https://github.com/ATTACKnDEFEND/VirusTotalQuery/blob/main/example.png)
+
 **Notes**
 To run this script, you need to replace the $apiKey variable in the script with your actual VirusTotal API key.
 
