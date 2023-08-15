@@ -3,8 +3,9 @@
 This PowerShell script allows you to query VirusTotal API for threat intelligence data. Given an input CSV file containing a list of IPs, URLs, or file hashes, the script will contact VirusTotal API and retrieve information about how many security vendors have flagged the input as malicious. The script will then output the results in a CSV file.
 
 **Usage**
-
+```
 .\VirusTotalQuery.ps1 -InputFile input.csv -OutputFile results.csv
+```
 
 **Notes**
 To run this script, you need to replace the $apiKey variable in the script with your actual VirusTotal API key.
