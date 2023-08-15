@@ -19,5 +19,5 @@ url,http://example.com
 hash,44d88612fea8a8f36de82e1278abb02f
 ```
 
-** Notes**
+**Notes**
 To run this script, you need to replace the $apiKey variable in the script with your actual VirusTotal API key.
