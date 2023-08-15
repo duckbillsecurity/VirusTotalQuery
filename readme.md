@@ -10,8 +10,8 @@ This PowerShell script allows you to query VirusTotal API for threat intelligenc
 To run this script, you need to replace the $apiKey variable in the script with your actual VirusTotal API key.
 
 **Parameters**
-- `InputFile` (Mandatory): The path to the input CSV file that contains the IPs, URLs, or hashes to be checked. The CSV file should have two columns: "Type" (ip, url, hash) and "Value" (the actual value to be checked).
-- `OutputFile` (Mandatory): The path where the resulting CSV file should be saved. This file will contain columns for the "Value", "Type", and the number of "Vendor Flags" indicating malicious behavior.
+-`InputFile` (Mandatory): The path to the input CSV file that contains the IPs, URLs, or hashes to be checked. The CSV file should have two columns: "Type" (ip, url, hash) and "Value" (the actual value to be checked).
+-`OutputFile` (Mandatory): The path where the resulting CSV file should be saved. This file will contain columns for the "Value", "Type", and the number of "Vendor Flags" indicating malicious behavior.
 
 **Example Input File**
 ```
